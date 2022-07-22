@@ -2,7 +2,7 @@
 <BODY>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/85945510/179628167-79ee6ed8-06b6-4bd1-bd56-422951d93423.jpeg" width="500">
+  <img src="https://user-images.githubusercontent.com/85945510/179628167-79ee6ed8-06b6-4bd1-bd56-422951d93423.jpeg" width="500">
 </div>
 
 <h1> Fundamentos de redes para análise de tráfego </h1>
@@ -32,7 +32,7 @@
 <p> Preste atenção na imagem abaixo:
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/85945510/179632864-5132f1d0-d0a5-4b88-af84-2127dadad53e.jpeg">
+  <img src="https://user-images.githubusercontent.com/85945510/179632864-5132f1d0-d0a5-4b88-af84-2127dadad53e.jpeg">
 </div>
 
 <br>
@@ -42,8 +42,15 @@
 <br>
 
 <p> Uma boa parte das pessoas por algum motivo pensa que o "flow" da camda é de baixo para cima, coisa que é falsa, a não ser no processo de <b> desencapsulamento </b> de pacotes, que nós iremos ver mais tarde. 
-<p> Basicamente, a pilha funciona de baixo para cima, sendo que há uma camada abstraida que seria o <b> aplicativo/programa </b> que está gerando os dados na rede. 
-<h1> EM PROGRESSO... </h1>
+<p> Basicamente, a pilha funciona de baixo para cima, sendo que há uma camada abstraida que seria a do <b> aplicativo/programa </b> que está gerando os dados na rede. 
+
+<br><br>
+
+<div>
+  <h1> Qual a função de cada camada? </h1>
+  <p> <b> Camada de aplicação: </b> A camada de aplicação é uma camada considerada de alto nível, nela habitam os <b>protocolos</b>. O aplicativo manda uma mensagem e nessa camada são decididos qual será a porta de destino do dado (de acordo com o protocolo) e qual é a função da mensagem. Nessa camada,os dados ainda são apenas mensagens sendo transmitidas, a parte em que esses dados viram pacotes ainda é mais embaixo, mais especificamente na camada de <b>transporte.</b><br>
+  <p> <b>Camada de apresentação</b>: A camada de apresentação faz jus ao seu nome, ela define o formato do dado e também o converte de uma maneira que possa ser entendido pelas outras camadas. Essa camada basicamente atua como um tradudor dos dados para a rede, processos como criptografia, compressão de dados, você provavelmente entendeu, ela formata toda a informação no modo que o receptor irá entender, ou que a transmissão tenha designado.
+  <h1> EM PROGRESSO... </h1>
 
 </BODY>
 </HTML>
